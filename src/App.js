@@ -7,9 +7,9 @@ import Sidebar from './components/Sidebar';
 
 function App() {
   return (
-    <div className="App font-serif flex">
+    <div className="App flex flex-col bg-black text-white">
       <Navbar/>
-      <div className='flex'>
+      <div className='flex w-full mt-auto'>
       <Sidebar/>
       <Home/>
       </div>
